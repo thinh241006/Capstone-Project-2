@@ -1,0 +1,106 @@
+body {
+    background-color: #ddf5f7 !important;
+    display: block;
+    margin: 8px;
+  }
+
+  .nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.main-menu {
+    display: inline-block;
+    list-style: none;
+    padding-right: 10px;
+    margin-top: 20px; 
+}
+
+.main-menu svg{
+    padding-top: 0px;
+    margin-top: -5px;
+}
+
+.icon svg {
+    fill: #5D534A;
+    transition: 0.2s ease-in-out;
+}
+
+.icon svg:hover {
+    transform: scale(1.1);
+}
+
+.icon .bi-linkedin:hover {
+    fill: #0A66C2;
+}
+
+.icon .bi-facebook:hover {
+    fill: #1877F2;
+}
+
+.icon .bi-instagram:hover {
+    fill: #E4405F;
+}
+
+.icon .bi-discord:hover {
+    fill: #5865F2;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover, a:focus, a:visited {
+    text-decoration: none;
+}
+
+.main-menu a, .icon a, .menu a {
+    text-decoration: none; /* Ensure no underline for specific sections */
+    color: black;
+}
+
+.about:hover, .portfolio:hover, .resume:hover, .contact:hover {
+    color: #80634a;
+    text-decoration: underline;
+
+}
+
+.profile-img{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.profile-img img{
+    border-radius: 50%;
+}
+
+.intro{
+    text-align: center;
+}
+
+.first-hr{
+    border: dotted #898268 6px;
+    border-bottom: none;
+    width: 35%;
+}
+
+.hr-container{
+    display: flex;
+    justify-content: center;
+}
+
+.projects-container{
+    text-align: center;
+}
+
+.second-hr{
+    border: dotted #898268 6px;
+    border-bottom: none;
+    width: 85%;
+}
+
+footer{
+    text-align: center;
+}
